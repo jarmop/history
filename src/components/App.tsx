@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './App.module.css';
-import * as england from './england';
+import * as england from '../data/england';
 
 const App: React.FC = () => {
-    const startYear = 1000;
-    const years = Array.from({length: 800}, (value, index) => startYear + index);
+    const startYear = 1200;
+    const endYear = 1800;
+    const years = Array.from({length: endYear - startYear}, (value, index) => startYear + index);
 
     return (
         <div className={styles.app}>
