@@ -1,0 +1,11 @@
+.window {
+    font-size: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0;
+}

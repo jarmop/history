@@ -1,0 +1,17 @@
+.scrollbarContainer {
+    margin-right: 10px;
+}
+
+.scrollbar {
+    position: fixed;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.handle {
+    position: absolute;
+    background-color: blue;
+    opacity: 0.5;
+}
