@@ -48,7 +48,7 @@ export default {
       year: 1337,
     },
     {
-      name: 'Peasant\'s Revolt',
+      name: "Peasant's Revolt",
       year: 1381,
     },
     {
@@ -100,4 +100,4 @@ export default {
       year: 1687,
     },
   ],
-};
+}
